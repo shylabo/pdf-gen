@@ -18,7 +18,7 @@ func main() {
 	buildHeading(m)
 	buildFruitList(m)
 
-	err := m.OutputFileAndClose(("pdfs/div_shuya.pdf"))
+	err := m.OutputFileAndClose(("pdfs/div_fruits.pdf"))
 	if err != nil {
 		fmt.Println("Could not save PDF:", err)
 		os.Exit(1)
